@@ -85,7 +85,7 @@ namespace Smoke
                 time = 0;
             }
 
-            //smokesystem.Update(time);
+           // smokesystem.Update(time);
 
             // TODO: Add your update logic here
 

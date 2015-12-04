@@ -10,7 +10,7 @@ namespace _2Danimation
     class flame
     {
         int NumbersOfFrame = 48;
-        float maxTime = 0.5f;
+        float maxTime = 1f;
         float timeElapsed;
         int frameX;
         float frameY;
@@ -18,7 +18,7 @@ namespace _2Danimation
         int numberFrameY = 10;
         private Texture2D TrueFlame;
         int frame;
-        
+        Vector2 scale = new Vector2(20f, 50f);
         
 
         public flame(Texture2D FlameExplosion)
@@ -38,10 +38,11 @@ namespace _2Danimation
         public void Draw(SpriteBatch spritebatch, Camera camera)
         {
             spritebatch.Begin();
-            frameX = frame % numberFrameX;
+            frameX = frame % numberFrameX;   //teachc0de
             frameY = frame / numberFrameX;
-            Rectangle test = new Rectangle(frameX*128,(int) frameY*128, TrueFlame.Width/numberFrameX, TrueFlame.Height/numberFrameY);   // TExture2d width and height dela med numbersof frames
-            spritebatch.Draw(TrueFlame, new Vector2(100, 100), test ,Color.White,0,new Vector2(0,0),camera.ScaleObject(TrueFlame.Width/numberFrameX,TrueFlame.Height/numberFrameY),SpriteEffects.None,0);
+            Rectangle test = new Rectangle(frameX*128,(int) frameY*128, TrueFlame.Width/numberFrameX, TrueFlame.Height/numberFrameY);
+            Vector2 scale = camera.ScaleObject(TrueFlame.Width / numberFrameX, TrueFlame.Height / numberFrameY);// TExture2d width and height dela med numbersof frames
+            spritebatch.Draw(TrueFlame, new Vector2(100, 100), test ,Color.White,0,new Vector2(0,0),scale,SpriteEffects.None,0);
 
               /// hittar inte animationens position, tittar på youtube eller använder av variabeln numberofFrame x eller number of frameY
 
@@ -68,8 +69,8 @@ namespace _2Danimation
                     frame++;
                 }
 
-                timeElapsed = 0;                                               // restart timer after the animation time-out
-            }                                                                // väljer bildrutorna i PNG // CHOSING THE PICTURE BOX OUT OF PNG FILE
+                timeElapsed = 0;                          // restart timer after the animation time-out
+            }                                           // väljer bildrutorna i PNG // CHOSING THE PICTURE BOX OUT OF PNG FILE
 
 
             

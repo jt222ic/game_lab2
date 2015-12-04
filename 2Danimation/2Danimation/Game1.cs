@@ -21,7 +21,7 @@ namespace _2Danimation
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 
-            camera = new Camera(graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight, 8, 8);
+            camera = new Camera(graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight, 1, 1);
         }
 
         /// <summary>

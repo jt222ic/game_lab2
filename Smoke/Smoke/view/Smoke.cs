@@ -28,7 +28,7 @@ namespace Smoke.view
         private float size;
         private float minSize = 0;
         private float maxSize = 10;
-        public float fade = 1;
+        public float fade = 1f;
       
 
      
@@ -46,13 +46,14 @@ namespace Smoke.view
                 
           
         }
+        
 
         public void SmokeFade(float MaxTimetoLive)
         {
             
-            //timeLived = 0;
-            fade = 0;
-            //MaxTimetoLive = timeLived;
+           timeLived = 0;
+           // fade = 0;
+           MaxTimetoLive = timeLived;
         }
         public bool TimeEnd()
         {
@@ -68,8 +69,7 @@ namespace Smoke.view
             spriteBatch.Draw(smoke, Visual, null, color, 0, new Vector2(0,0), size, SpriteEffects.None, 0);                   // visuella koordinationer stööre 
             spriteBatch.End();
         }
-
-
+        
         public void Update(float elapsedTime)
         {
             timeLived += elapsedTime;
@@ -78,12 +78,11 @@ namespace Smoke.view
             lifePercent = timeLived / MaxTimeToLive;
             size = minSize + lifePercent * maxSize;
 
-           
-
             velocity = velocity + acceleration * elapsedTime;
             position = position + velocity * elapsedTime;
 
-           
+            fade -= elapsedTime / MaxTimeToLive;    // to make the smoke dissapear or more like fading out i put this later and it worked!
+
         }
     }
 }

@@ -16,20 +16,20 @@ namespace Smoke.view
         Smoke smokeObject;
         public int Maxparticle = 700;
         Texture2D SMOKE;
-        public float smokeLife = 10;
-        public int particlelife = 1;
- 
-        public float respawn = 2;
+        public float smokeLife = 3;
+        //public int particlelife = 3;
+
+
 
         public SmokeSystem(Texture2D smoke)
         {
             SMOKE = smoke;
-           smokeObject = new Smoke(smoke, rand);
+            smokeObject = new Smoke(smoke, rand);
         }
 
         public void MakeSmoke(Texture2D smoke)
         {
-            if(particle.Count < Maxparticle)
+            if (particle.Count < Maxparticle)
             {
                 Smoke newsmoke = new Smoke(smoke, rand);
                 particle.Add(newsmoke);
@@ -47,13 +47,12 @@ namespace Smoke.view
             foreach (Smoke s in particle)
             {
                 s.Update(TimeDuration);
-                if(s.TimeEnd())
+                if (s.TimeEnd())
                 {
                     s.SmokeFade(TimeDuration);
                 }
-            }
 
-           
+            }
         }
     }
 }
