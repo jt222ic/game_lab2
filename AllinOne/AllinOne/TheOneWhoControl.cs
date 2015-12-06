@@ -4,6 +4,7 @@ using AllinOne.Splitter;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +38,8 @@ namespace AllinOne
             Spark = Content.Load<Texture2D>("spark.png");
             Explosion = Content.Load<Texture2D>("explosion.png");
 
+
+           
             _smokesystem = new SmokeSystem(Smoke);
             _splittersystem = new SplitterSystem(Spark);
             Flame = new flame(Explosion);

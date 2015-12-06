@@ -64,7 +64,7 @@ namespace AllinOne.Smoke
             Color color = new Color(fade, fade, fade, fade);
              spriteBatch.Draw(smoke, Visual, null, color, 0, new Vector2(0, 0), size, SpriteEffects.None, 0);                   // visuella koordinationer stööre 
             // spriteBatch.End();
-           // spriteBatch.Draw(smoke, new Vector2(0, 0), Color.White);
+           // spriteBatch.Draw(smoke, new Vector2(0, 0), Color.White);s
         }
 
         public void Update(float elapsedTime)

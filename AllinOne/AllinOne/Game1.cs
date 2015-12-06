@@ -74,7 +74,14 @@ namespace AllinOne
                 Exit();
 
             // TODO: Add your update logic here
+           if( Keyboard.GetState().IsKeyDown(Keys.Space))
+                {
+                Controller.Updateeverything((float)gameTime.ElapsedGameTime.TotalSeconds);  // faster smoke in time
 
+                
+               // Controller.DrawEverything();
+
+            }
           
 
             base.Update(gameTime);
