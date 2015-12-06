@@ -95,6 +95,12 @@ namespace PartikelEffect
                     splittersystem = new SplitterSystem(spark);
                     time = 0;
                 }
+
+                if(Keyboard.GetState().IsKeyDown(Keys.Space))
+                {
+                    splittersystem = new SplitterSystem(spark);    // complementing * forgot to put a manual explosion
+                   
+                }
             }
             
             

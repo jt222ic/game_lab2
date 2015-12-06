@@ -24,3 +24,29 @@ C:\Users\jan\Documents\Visual Studio 2015\Projects\PartikelEffect\PartikelEffect
 C:\Users\jan\Documents\Visual Studio 2015\Projects\PartikelEffect\PartikelEffect\obj\x86\Debug\PartikelEffect.csprojResolveAssemblyReference.cache
 C:\Users\jan\Documents\Visual Studio 2015\Projects\PartikelEffect\PartikelEffect\obj\x86\Debug\PartikelEffect.exe
 C:\Users\jan\Documents\Visual Studio 2015\Projects\PartikelEffect\PartikelEffect\obj\x86\Debug\PartikelEffect.pdb
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\obj\x86\Debug\PartikelEffect.exe
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\obj\x86\Debug\PartikelEffect.pdb
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\obj\x86\Debug\PartikelEffect.csprojResolveAssemblyReference.cache
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\Content\spark.png
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\PartikelEffect.exe
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\PartikelEffect.pdb
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\jan\Desktop\gameLab2\PartikelEffect\PartikelEffect\bin\Windows\Debug\SharpDX.Direct3D9.xml
