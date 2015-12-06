@@ -53,7 +53,7 @@ namespace PartikelEffect
             spriteBatch = new SpriteBatch(GraphicsDevice);
             spark = Content.Load<Texture2D>("spark.png");
             camera.ScaleEverything(graphics.GraphicsDevice.Viewport);
-            splittersystem = new SplitterSystem(spark);
+           splittersystem = new SplitterSystem(spark);
             
 
 
@@ -92,14 +92,14 @@ namespace PartikelEffect
                 if (time >= 3)
                 {
 
-                    splittersystem = new SplitterSystem(spark);
+                    //splittersystem = new SplitterSystem(spark);
                     time = 0;
                 }
 
                 if(Keyboard.GetState().IsKeyDown(Keys.Space))
                 {
                     splittersystem = new SplitterSystem(spark);    // complementing * forgot to put a manual explosion
-                   
+                    
                 }
             }
             
